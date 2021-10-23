@@ -1,0 +1,39 @@
+body {
+font-family: poppins;
+font-size: 14px;
+margin: 0;
+padding: 0;
+}
+.swiper-container {
+width: 100%;
+padding-top: 130px;
+padding-bottom: 50px;
+}
+.swiper-slide {
+background-position: center;
+background-size: cover;
+width: 300px;
+height: 300px;
+position: relative;
+}
+.slide-text {
+position: absolute;
+left: 25%;
+top: 80%;
+}
+.slide-text h2 {
+color: #fff;
+font-size: 30px;
+margin: 0 0 15px;
+text-align:center;
+}
+.swiper-pagination-bullet {
+width: 15px;
+height: 15px;
+background: #ddd;
+opacity: 1;
+}
+.swiper-pagination-bullet-active {
+opacity: 1;
+background: deeppink;
+}

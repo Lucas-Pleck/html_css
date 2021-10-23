@@ -1,0 +1,18 @@
+@font-face{
+    font-family: "Trump";
+    src: url('fonts/Nunito-Black.ttf') format('truetype'),
+        url('fonts/Nunito-Bold.ttf');
+}
+
+body {
+    padding: 30px;
+    font-family: 'Trump', sans-serif;
+}
+
+div{
+    font-size: 2rem;
+}
+
+h1{
+    font-size: 4rem;
+}

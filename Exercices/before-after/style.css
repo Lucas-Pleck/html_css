@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    background-color: lightpink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div{
+    width: 960px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius:10px;
+    padding: 50px;
+    box-shadow: -5px 8px 3px rgba(255, 0, 0, 0.295);
+}
+
+.quote::before{
+    content: "\21BC";
+    color: purple;
+}
+
+.quote::after{
+    content: ">>>";
+    color: royalblue;
+}
+
+h1{
+    position: relative;
+    font-size: 1.4rem;
+    color: seagreen;
+    display: inline;
+}
+
+h1::before{
+    content: "";
+    position:absolute ;
+    bottom: -3px;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    background-color: black;
+    transition: all .4s ease-in-out;
+    transform:scaleX(0);
+}
+
+h1:hover::before{
+    transform: scaleX(1);
+}

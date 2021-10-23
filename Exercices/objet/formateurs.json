@@ -1,0 +1,20 @@
+[
+    {
+        "firstname":"Sebastien",
+        "lastname":"Cardon",
+        "age":26,
+        "city":"Mons"
+    },
+    {
+        "firstname":"Maxime",
+        "lastname":"Godart-Hupet",
+        "age":27,
+        "city":"Ghlin"
+    },
+    {
+        "firstname":"Gilles",
+        "lastname":"Bertrand",
+        "age":35,
+        "city":"Hyon"
+    }
+]
